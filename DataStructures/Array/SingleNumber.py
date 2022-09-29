@@ -12,6 +12,7 @@ class Array:
             if v==1:
                 return k
 
+
     def singleNumber2(a):
         n = len(a)
 
