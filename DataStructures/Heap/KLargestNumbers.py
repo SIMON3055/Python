@@ -1,3 +1,10 @@
+'''
+K largestNumbers in an array of length N
+a = [1,76,89,65,4,3,6,8,9]
+k =3
+
+output = [89,76]
+'''
 print("helloworld")
 
 a = [1,76,89,65,4,3,6,8,9]
@@ -9,6 +16,7 @@ def maxKNumber(a,k):
     res = []
     for i in a:
         heappush(hq,-1 * i)
+    
     
     count = 1
     while count < k:
