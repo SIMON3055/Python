@@ -9,6 +9,9 @@ class Array:
             list_dict[a[i]]+=1
 
         for k,v in list_dict.items():
+            
+            
+            
             if v==1:
                 return k
 
